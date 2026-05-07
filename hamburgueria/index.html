@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <link rel="stylesheet" href="..//Hamburgueria-D.E-main/css/estilo.css" />
+    <script src="dados.js"></script>
+    <script src="js/app.js"></script>
+
+    
+    <title>Hamburgueria D.E</title>
+  </head>
+  <body>
+    
+    <section></section>
+  </body>
+</html>
+
+<div class="cabecalho" id="cabecalho">
+  <h1>Bem vindo a Hamburgueria D.E🍔</h1>
+  <p>
+    Melhor hambugueria da região <br />
+  </p>
+
+  <nav class="navegacao">
+    <a href="#cabecalho">Menu</a>
+    <a href="#bio-hamburgueria">Sobre nós</a>
+    <a href="#cardapio">Cardápio</a>
+    <a href="#precos">Preços</a>
+    <a href="#especies">Hambúrgueres Especiais</a>
+    <a href="#final">Contato</a>
+  </img>
+</nav>
+
+
+
+</div>
+
+<div class="carousel-container">
+
+    <!-- Slide 1 -->
+    <div class="slide fade">
+        <img src="../Hamburgueria-D.E-main/img/promocao-bolos.jpeg" alt="Promoção 1">
+        <div class="caption">Corte + Barba por R$ 45,00 — Oferta Limitada!</div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="slide fade">
+        <img src="img/promocao-bolos.jpeg" alt="Promoção 2">
+        <div class="caption">Hidratação Capilar + Corte por R$ 60,00</div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide fade">
+        <img src="img/promocao-kit.jpeg" alt="Promoção 3">
+        <div class="caption">Agende Online e ganhe 10% de desconto</div>
+    </div>
+
+    <!-- Botões de navegação -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<!-- Pontos indicativos -->
+<div class="dots-container">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+<div class="bio-hamburgueria">
+
+  <h2>Biografia
+
+  
+    <p>Somos uma hamburgueria especializada em lanches artesanais, preparados com ingredientes de qualidade e muito cuidado. 
+    Nosso cardápio vai desde os clássicos até hambúrgueres especiais, atendendo todos os gostos.</p>
+  
+
+
+</div>
+
+<div class="menu" id="menu">
+    <h2>Cardápio </h2>
+
+    <h3>🍔 Burgers Clássicos</h3>
+    <ul>
+        <li>Classic Burger – R$ 18,90</li>
+        <li>Cheeseburger Duplo – R$ 22,90</li>
+        <li>X-Bacon – R$ 24,90</li>
+        <li>X-Salada – R$ 21,90</li>
+    </ul>
+
+    <h3>💥 Burgers Especiais</h3>
+    <ul>
+        <li>Smash Duplo – R$ 26,90</li>
+        <li>Barbecue Bacon – R$ 29,90</li>
+        <li>Chicken Crispy – R$ 25,90</li>
+        <li>Veggie Burger – R$ 27,90</li>
+    </ul>
+
+    <h3>🌶️ Burgers Premium</h3>
+    <ul>
+        <li>Monster Burger – R$ 39,90</li>
+        <li>Blue Cheese Burger – R$ 34,90</li>
+        <li>Truffle Burger – R$ 36,90</li>
+    </ul>
+
+    <h3>🍟 Acompanhamentos</h3>
+    <ul>
+        <li>Batata frita (P: R$ 10,90 | M: R$ 14,90 | G: R$ 18,90)</li>
+        <li>Batata com cheddar e bacon – R$ 22,90</li>
+        <li>Onion rings – R$ 19,90</li>
+        <li>Nuggets de frango (8 un.) – R$ 16,90</li>
+        <li>Batata rústica – R$ 17,90</li>
+    </ul>
+
+    <h3>🥤 Bebidas</h3>
+    <ul>
+        <li>Refrigerante lata – R$ 6,90</li>
+        <li>Refrigerante 600ml – R$ 9,90</li>
+        <li>Suco natural – R$ 8,90</li>
+        <li>Água sem gás – R$ 4,90</li>
+        <li>Água com gás – R$ 5,90</li>
+    </ul>
+
+    <h3>🍺 Bebidas Alcoólicas</h3>
+    <ul>
+        <li>Caipirinha R$ 9,90</li>
+        <li>Cerveja artesanal – R$ 16,90</li>
+        <li>Chopp (400ml) – R$ 12,90</li>
+    </ul>
+
+    <h3>🍨 Sobremesas</h3>
+    <ul>
+        <li>Milkshake – R$ 16,90</li>
+        <li>Brownie com sorvete – R$ 18,90</li>
+        <li>Sundae – R$ 12,90</li>
+        <li>Casquinha – R$ 6,90</li>
+    </ul>
+</div>
+
+
+<div class="horario-atendimento" id="horario-atendimento">
+
+  <h2>Horário de atendimento:</h2>
+
+  <p>Segunda a Sexta: 11:00 - 22:00</p>
+  <p>Sábado e Domingo: 12:00 - 23:00</p>
+
+</div>
+
+<div class="final" id="final">
+
+  <h2>Entre em contato:</h2>
+
+  <form>
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" required>
+
+    <label for="mensagem">Mensagem:</label>
+    <textarea id="mensagem"></textarea>
+
+    <button type="submit">Enviar</button>
+  </form>
+
+  <p>Telefone: (11) 95498-9143</p>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 - Hamburgueria D.E</p>
+  <p>Desenvolvido por Erick Juan</p>
+</footer>
+</body>
+</html>
